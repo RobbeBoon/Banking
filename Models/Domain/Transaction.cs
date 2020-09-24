@@ -17,5 +17,7 @@ namespace Banking.Models.Domain
             TransactionType = type;
             DateOfTrans = DateTime.Now;
         }
+
+
     }
 }
