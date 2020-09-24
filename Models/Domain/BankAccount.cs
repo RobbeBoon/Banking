@@ -22,7 +22,8 @@ namespace Banking.Models.Domain
         #region Contructor
         public BankAccount(string accountNumber)
         {
-            throw new NotImplementedException();
+            AccountNumber = accountNumber;
+            Balance = 0;
         }
         #endregion
         #region Methods
